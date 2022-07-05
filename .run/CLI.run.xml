@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CLI" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="go-dummy-clean-arch" />
+    <working_directory value="$PROJECT_DIR$" />
+    <parameters value="--artistId=2" />
+    <envs>
+      <env name="DB_HOST" value="localhost:3306" />
+      <env name="DB_NAME" value="dummy" />
+      <env name="DB_PASS" value="root" />
+      <env name="DB_USER" value="root" />
+    </envs>
+    <kind value="PACKAGE" />
+    <package value="go-dummy-clean-arch/cmd/cli" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>

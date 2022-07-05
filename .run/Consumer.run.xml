@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Consumer" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="go-dummy-clean-arch" />
+    <working_directory value="$PROJECT_DIR$" />
+    <envs>
+      <env name="DB_HOST" value="localhost:3306" />
+      <env name="DB_NAME" value="dummy" />
+      <env name="DB_PASS" value="root" />
+      <env name="DB_USER" value="root" />
+      <env name="KAFKA_BOOTSTRAP" value="localhost:9092" />
+      <env name="TOPIC" value="artist" />
+    </envs>
+    <kind value="PACKAGE" />
+    <package value="go-dummy-clean-arch/cmd/queue" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
